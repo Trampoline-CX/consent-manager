@@ -75,7 +75,10 @@ export default function conditionallyLoadAnalytics({
   // the user's new preferences can take affect
   if (wd.analytics && wd.analytics.initialized) {
     if (shouldReload) {
-      window.location.reload()
+      console.warn(
+        "Segment library was already initialized. The default library would have reloaded but the Trampoline version doesn't."
+      )
+      // window.location.reload()
     }
     return
   }
