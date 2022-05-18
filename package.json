@@ -1,7 +1,7 @@
 {
-  "name": "@segment/consent-manager",
-  "version": "5.4.0",
-  "description": "Drop-in consent management plugin for analytics.js",
+  "name": "@trampoline/segment-consent-manager",
+  "version": "5.4.1-alpha.0",
+  "description": "Drop-in consent management plugin for Segment analytics.js",
   "keywords": [
     "gdpr",
     "tracking",
